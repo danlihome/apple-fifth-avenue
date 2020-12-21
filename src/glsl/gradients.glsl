@@ -65,6 +65,7 @@ vec3 gradients(int type, vec2 st, float tick) {
   } else if (type == 3) {
     return gradient3(st, tick);
   }
+  return gradient1(st, tick);
 }
 
 #pragma glslify: export(gradients);
