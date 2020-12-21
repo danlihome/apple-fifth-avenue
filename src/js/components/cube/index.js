@@ -42,7 +42,7 @@ gui.get((gui) => {
   folder.add(CONFIG, 'borderWidth', 0, 0.1).step(0.01)
   folder.add(CONFIG, 'displacementLength', 0, 2).step(0.01)
   folder.add(CONFIG, 'reflectionOpacity', 0, 1).step(0.01)
-  folder.add(CONFIG, 'scene', { 'Apple': 3, 'Mask': 2, 'Displacement': 1 })
+  folder.add(CONFIG, 'scene', {'Apple': 3, 'Mask': 2, 'Displacement': 1})
 })
 
 export default regl({

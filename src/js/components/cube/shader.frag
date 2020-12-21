@@ -84,6 +84,7 @@ vec4 switchScene(int id) {
   } else if (id == 3) {
     return type3();
   }
+  else return type1();
 }
 
 void main() {
